@@ -75,6 +75,12 @@ npm run dev
 ```
 Open `http://localhost:5173` to view the application.
 
+## Live Links
+
+After running the setup commands, you can access the project at:
+- **Frontend (Article Viewer)**: http://localhost:5173
+- **Backend (API)**: http://localhost:3000
+
 ## Features
 - **Dashboard**: View all scraped articles and their AI status.
 - **Detail View**: Split-screen comparison of Original vs AI Enhanced content with sources.
