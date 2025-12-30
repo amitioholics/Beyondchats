@@ -1,0 +1,17 @@
+{
+  "name": "beyondchats-fullstack",
+  "version": "1.0.0",
+  "description": "Full stack assignment",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npx ts-node src/server.ts\" \"cd frontend && npm run dev\"",
+    "scrape": "cd backend && npx ts-node src/scraper.ts",
+    "worker": "cd backend && npx ts-node src/worker.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
